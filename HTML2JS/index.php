@@ -168,8 +168,8 @@ function selectall(x){
 	text_val.select();
 }
 function unselect(x){
-	var $this = $(x);
-	$this.focus();
+	// var $this = $(x);
+	// $this.focus();
 }
 function clearx(x){
 	var $this = $(x).parent().find('textarea');
